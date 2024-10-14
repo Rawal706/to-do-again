@@ -1,0 +1,103 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background: #e7e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  border: 2px solid red;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  width: 50%;
+}
+
+#Heading1 {
+  font-size: 3rem;
+  text-align: center;
+}
+
+.div2 {
+  /* border: 2px solid green; */
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.taskInput {
+  width: 66%;
+  font-size: 22px;
+  padding: 7px 10px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+}
+
+.addTaskButton {
+  background: #ff4742;
+  border: 1px solid #ff4742;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: nunito, roboto, proxima-nova, "proxima nova", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  line-height: 16px;
+  min-height: 40px;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  margin: 0px 3px;
+}
+
+.addTaskButton:hover,
+.addTaskButton:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff4742;
+}
+
+.addTaskButton:active {
+  opacity: 0.5;
+}
+
+.defaultBTN {
+  border-radius: 250px;
+  cursor: pointer;
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  margin: 5px;
+}
+
+.taskItem {
+  font-weight: 500;
+  list-style: none;
+  background-color: #f9f9f9;
+  padding: 10px;
+  margin: 15px auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 20px;
+  flex-wrap: wrap;
+  border: 1px solid #ddd;
+  overflow-x: auto;
+}
